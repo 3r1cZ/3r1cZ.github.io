@@ -1,6 +1,6 @@
 # 3r1cZ.github.io
-This project allows me to host my portfolio website built at https://github.com/3r1cZ/Personal-Website on the main github.io page. 
+This project contains my portfolio website.
 <br><br>
-In addition, this new website is implemented with React.js, Vite, and Bootstrap and is completely overhauled for a more modern design. 
+It is implemented with React.js, TypeScript, Vite, and Bootstrap.
 ## Things Learned
-* Using React.js, Vite, and Bootstrap to develop a website more efficiently
+* Using TypeScript, React.js, Vite, and Bootstrap to develop a website more efficiently compared to vanilla JavaScript
