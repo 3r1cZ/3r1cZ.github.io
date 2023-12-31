@@ -1,16 +1,17 @@
-import { useState } from "react";
-import Alert from "../components/Alert";
-import Button from "../components/Button";
+import "../css/Home.css";
 
 const Home = () => {
-  const [alertVisible, setAlertVisibility] = useState(false);
-
   return (
-    <div>
-      {alertVisible && (
-        <Alert onClose={() => setAlertVisibility(false)}>My alert</Alert>
-      )}
-      <Button onClick={() => setAlertVisibility(true)}>My Button</Button>
+    <div className="container home-page">
+      <div className="intro-text">
+        <h1>
+          Hello, <br /> I'm Eric Zhou!
+        </h1>
+        <h2>
+          Web Development / Mobile App Development / Artificial Intelligence /
+          Game Development
+        </h2>
+      </div>
     </div>
   );
 };
