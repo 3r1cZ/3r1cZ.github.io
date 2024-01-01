@@ -1,7 +1,7 @@
 interface ButtonProps {
   children: string;
   color?: string;
-  onClick: () => void;
+  onClick?: () => void;
 }
 
 const Button = ({ children, onClick, color = "primary" }: ButtonProps) => {

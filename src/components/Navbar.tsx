@@ -1,12 +1,22 @@
 import { Link } from "react-router-dom";
 import "../css/Navbar.css";
+import logo from "../assets/logo.png";
+import logo_hover from "../assets/logo-hover.png";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [hovered, setHovered] = useState(false);
+
   return (
     <nav className="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          Eric Zhou
+          <img
+            className="logo"
+            src={hovered ? logo_hover : logo}
+            onMouseEnter={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
+          />
         </Link>
         <button
           className="navbar-toggler"

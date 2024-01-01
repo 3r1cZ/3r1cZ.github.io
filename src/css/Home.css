@@ -1,11 +1,8 @@
 .home-page {
   .intro-text {
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40%;
     max-height: 90%;
+    position: relative;
+    transform: translate(0px, 250px);
     font-family: "Hammersmith One";
   }
 
@@ -19,5 +16,15 @@
   h2 {
     font-size: 23px;
     color: #8d8d8d;
+  }
+
+  .flex-item {
+    flex: 1;
+  }
+
+  .profile-image {
+    width: 500px;
+    position: relative;
+    transform: translate(10px, 60px);
   }
 }
