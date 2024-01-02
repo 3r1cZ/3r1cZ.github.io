@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ToolContainer from "../components/ToolContainer";
 import "../css/Portfolio.css";
-import { motion } from "framer-motion";
+import AnimationFadeIn from "../components/AnimationFadeIn";
 
 interface PortfolioProps {
   data: any;
@@ -24,11 +24,7 @@ const Portfolio = ({ data }: PortfolioProps) => {
     setTags(Array.from(allTags));
   }, []);
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 1, delay: 0.5 }}
-    >
+    <AnimationFadeIn>
       {tags !== undefined && (
         <div className="container">
           <div className="stats">
@@ -41,7 +37,7 @@ const Portfolio = ({ data }: PortfolioProps) => {
           </div>
         </div>
       )}
-    </motion.div>
+    </AnimationFadeIn>
   );
 };
 
