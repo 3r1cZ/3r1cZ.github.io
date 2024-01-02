@@ -1,0 +1,31 @@
+.tags-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.3ch 0.8ch;
+  flex-wrap: wrap;
+}
+.tag-button {
+  padding: 0.8ch 1ch;
+  min-width: 5ch;
+  background: #8e758b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: filter 0.3s;
+}
+.tag-button[data-active="true"] {
+  border: 1px solid #715d6e;
+}
+.tag-button:hover {
+  cursor: pointer;
+  filter: brightness(125%);
+}
+
+.tool-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+}

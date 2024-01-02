@@ -1,0 +1,112 @@
+{
+  "content": {
+    "portfolio": {
+      "technical_skills": [
+        {
+          "name": "Java",
+          "tags": ["Programming Languages"]
+        },
+        {
+          "name": "Python",
+          "tags": ["Programming Languages", "Artificial Intelligence"]
+        },
+        {
+          "name": "HTML",
+          "tags": ["Web Development"]
+        },
+        {
+          "name": "CSS",
+          "tags": ["Web Development"]
+        },
+        {
+          "name": "Javascript",
+          "tags": ["Programming Languages", "Web Development"]
+        },
+        {
+          "name": "TypeScript",
+          "tags": ["Programming Languages", "Web Development"]
+        },
+        {
+          "name": "React",
+          "tags": ["Web Development", "Libraries"]
+        },
+        {
+          "name": "Vite",
+          "tags": ["Web Development"]
+        },
+        {
+          "name": "Bootstrap",
+          "tags": ["Web Development", "Frameworks"]
+        },
+        {
+          "name": "PyTorch",
+          "tags": ["Artificial Intelligence", "Frameworks"]
+        },
+        {
+          "name": "Jupyter Notebook",
+          "tags": ["Artificial Intelligence"]
+        },
+        {
+          "name": "Conda",
+          "tags": ["Artificial Intelligence"]
+        },
+        {
+          "name": "Firebase",
+          "tags": ["Databases", "Android Development"]
+        },
+        {
+          "name": "Android Studio",
+          "tags": ["Android Development"]
+        },
+        {
+          "name": "VS Code",
+          "tags": []
+        },
+        {
+          "name": "Git",
+          "tags": []
+        },
+        {
+          "name": "Quartus II",
+          "tags": []
+        },
+        {
+          "name": "UML",
+          "tags": []
+        },
+        {
+          "name": "Eclipse IDE",
+          "tags": []
+        },
+        {
+          "name": "Repl.it",
+          "tags": []
+        },
+        {
+          "name": "C Sharp",
+          "tags": ["Programming Languages", "Game Development"]
+        },
+        {
+          "name": "Unity",
+          "tags": ["Game Development"]
+        },
+        {
+          "name": "Visual Studio",
+          "tags": ["Game Development"]
+        }
+      ],
+      "projects": {
+        "Project_Name": {
+          "topics": ["technical skills"],
+          "description": "",
+          "date_range": "",
+          "thumbnails": [],
+          "links": {
+            "Github": "",
+            "Website": ""
+          }
+        }
+      }
+    }
+  }
+}

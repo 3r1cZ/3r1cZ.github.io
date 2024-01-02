@@ -1,0 +1,17 @@
+.tool {
+  width: 150px;
+  background-color: #e6e6e6;
+  border: 5px solid silver;
+  border-radius: 15px;
+  .toolImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 5px;
+  }
+
+  .caption {
+    text-align: center;
+  }
+}

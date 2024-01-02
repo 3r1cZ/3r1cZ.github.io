@@ -1,11 +1,11 @@
 import "../css/Home.css";
-import profile from "../assets/Profile.JPG";
+// import profile from "../assets/Profile.JPG";
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
 
 const Home = () => {
   return (
-    <div className="container home-page">
+    <div className="container home-page double-grid">
       <div className="flex-item intro-text">
         <h1>
           Hello, <br /> I'm Eric Zhou!
@@ -19,7 +19,7 @@ const Home = () => {
         </Link>
       </div>
       <div className="flex-item">
-        <img className="profile-image" src={profile} />
+        <img className="profile-image" src={"/assets/Profile.JPG"} />
       </div>
     </div>
   );

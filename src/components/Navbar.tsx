@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import "../css/Navbar.css";
-import logo from "../assets/logo.png";
-import logo_hover from "../assets/logo-hover.png";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -13,7 +11,7 @@ const Navbar = () => {
         <Link className="navbar-brand" to="/">
           <img
             className="logo"
-            src={hovered ? logo_hover : logo}
+            src={hovered ? "/assets/logo-hover.png" : "/assets/logo.png"}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
           />
