@@ -23,17 +23,19 @@ const Portfolio = ({ data }: PortfolioProps) => {
     setTags(Array.from(allTags));
   }, []);
   return (
-    <div className="container">
-      <div className="stats">
-        <br />
-        <h2>
-          <u>Technical Skills</u>
-        </h2>
-        <br />
-        {tags !== undefined && (
-          <ToolContainer tags={tags} tools={technicalSkills}></ToolContainer>
-        )}
-      </div>
+    <div>
+      {tags !== undefined && (
+        <div className="container">
+          <div className="stats">
+            <br />
+            <h2>
+              <u>Technical Skills</u>
+            </h2>
+            <br />
+            <ToolContainer tags={tags} tools={technicalSkills}></ToolContainer>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

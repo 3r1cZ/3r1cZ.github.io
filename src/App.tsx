@@ -16,14 +16,14 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          {!isFetching && (
+      {!isFetching && (
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
             <Route path="portfolio" element={<Portfolio data={dataParsed} />} />
-          )}
-        </Route>
-      </Routes>
+          </Route>
+        </Routes>
+      )}
     </BrowserRouter>
   );
 }

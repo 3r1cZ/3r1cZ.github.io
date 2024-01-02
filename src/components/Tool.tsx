@@ -2,6 +2,7 @@ import "../css/Tool.css";
 
 interface ToolProps {
   tool: string;
+  index: number;
 }
 
 /**
@@ -9,7 +10,7 @@ interface ToolProps {
  * @param tool the developer tool name
  * @returns the tool component
  */
-const Tool = ({ tool }: ToolProps) => {
+const Tool = ({ tool, index }: ToolProps) => {
   return (
     <div className="tool">
       <img

@@ -17,7 +17,11 @@
 }
 .tag-button[data-active="true"] {
   border: 1px solid #715d6e;
-  background: #715d6e;
+  background: #62505f;
+}
+.tag-button[data-active="true"]:hover {
+  cursor: pointer;
+  filter: brightness(80%);
 }
 .tag-button:hover {
   cursor: pointer;
