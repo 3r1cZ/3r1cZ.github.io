@@ -14,6 +14,7 @@ const Tool = ({ tool, index }: ToolProps) => {
   return (
     <div className="tool">
       <img
+        loading="lazy"
         className="toolImage"
         src={"/assets/" + tool.toLowerCase().replace(" ", "_") + ".png"}
       />
