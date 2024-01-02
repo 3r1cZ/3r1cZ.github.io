@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 import "../css/Navbar.css";
 import { useState } from "react";
 
+/**
+ * This function returns a navbar component for the website.
+ * @returns the navbar component
+ */
 const Navbar = () => {
   const [hovered, setHovered] = useState(false);
 

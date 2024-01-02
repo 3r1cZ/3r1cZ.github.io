@@ -5,6 +5,12 @@ interface AlertProps {
   onClose: () => void;
 }
 
+/**
+ * This function returns an alert component for the website.
+ * @param children the text of the alert
+ * @param onClose the code to be executed when the alert is closed
+ * @returns the alert component
+ */
 const Alert = ({ children, onClose }: AlertProps) => {
   return (
     <div className="alert alert-primary alert-dismissible fade show">

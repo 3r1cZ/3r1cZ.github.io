@@ -6,8 +6,6 @@ import "./App.css";
 import useFetch from "./hooks/useFetch";
 
 function App() {
-  // const data = fetch("/data/data.json").then((response) => response.json());
-  // const data = require("/data/data.json")
   const { data: data, isFetching } = useFetch("/data/data.json");
   let dataString;
   let dataParsed;

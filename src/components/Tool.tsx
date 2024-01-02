@@ -4,6 +4,11 @@ interface ToolProps {
   tool: string;
 }
 
+/**
+ * This function returns a tool component for the website.
+ * @param tool the developer tool name
+ * @returns the tool component
+ */
 const Tool = ({ tool }: ToolProps) => {
   return (
     <div className="tool">

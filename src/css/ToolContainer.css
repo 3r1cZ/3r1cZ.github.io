@@ -13,11 +13,11 @@
   color: white;
   border: none;
   border-radius: 5px;
-  font-size: 1rem;
   transition: filter 0.3s;
 }
 .tag-button[data-active="true"] {
   border: 1px solid #715d6e;
+  background: #715d6e;
 }
 .tag-button:hover {
   cursor: pointer;
