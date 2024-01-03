@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import "../css/Tool.css";
-import { useState } from "react";
 
 interface ToolProps {
   tool: string;
