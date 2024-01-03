@@ -115,10 +115,12 @@
         {
           "name": "HAMS",
           "tags": ["Java", "Android Studio", "Firebase"],
-          "description": "A Healthcare Management Android Application for managing appointments between patients and doctors.",
+          "description": "Healthcare Appointment Management System (HAMS): An Android Application for managing appointments between patients and doctors.",
           "project_time": "09/2023-12/2023",
           "image": "/assets/hamsDoctor.png",
-          "links": [""]
+          "links": [
+            "https://github.com/uOttawaSEGA2023/project-project-group-11"
+          ]
         },
         {
           "name": "Puzzle Game",
