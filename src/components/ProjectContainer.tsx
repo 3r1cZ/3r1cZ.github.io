@@ -6,7 +6,7 @@ interface ProjectContainerProps {
 }
 
 /**
- * This function returns a project container component for the website
+ * This function returns a project container component for the website.
  * @param projects the list of projects
  * @returns the tool container component
  */
