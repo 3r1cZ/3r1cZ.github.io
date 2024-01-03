@@ -13,7 +13,7 @@ interface ProjectProps {
 /**
  * This function returns a project component for the website.
  * The information displayed at the front is the project name, image, and tag icons.
- * The information displayed at the back is the project time and description.
+ * The information displayed at the back is the project time, description, and links.
  * @param projectName the name of the project
  * @param tags the tag names for the project
  * @param image the image of the project
