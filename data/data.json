@@ -1,0 +1,145 @@
+{
+  "content": {
+    "portfolio": {
+      "technical_skills": [
+        {
+          "name": "Java",
+          "tags": ["Programming Languages", "Android Development"]
+        },
+        {
+          "name": "Python",
+          "tags": ["Programming Languages", "Artificial Intelligence"]
+        },
+        {
+          "name": "HTML",
+          "tags": ["Web Development"]
+        },
+        {
+          "name": "CSS",
+          "tags": ["Web Development"]
+        },
+        {
+          "name": "Javascript",
+          "tags": ["Programming Languages", "Web Development"]
+        },
+        {
+          "name": "TypeScript",
+          "tags": ["Programming Languages", "Web Development"]
+        },
+        {
+          "name": "React",
+          "tags": ["Web Development", "Libraries"]
+        },
+        {
+          "name": "Vite",
+          "tags": ["Web Development"]
+        },
+        {
+          "name": "Bootstrap",
+          "tags": ["Web Development", "Frameworks"]
+        },
+        {
+          "name": "PyTorch",
+          "tags": ["Artificial Intelligence", "Frameworks"]
+        },
+        {
+          "name": "Jupyter Notebook",
+          "tags": ["Artificial Intelligence"]
+        },
+        {
+          "name": "Conda",
+          "tags": ["Artificial Intelligence"]
+        },
+        {
+          "name": "Firebase",
+          "tags": ["Databases", "Android Development"]
+        },
+        {
+          "name": "Android Studio",
+          "tags": ["Android Development"]
+        },
+        {
+          "name": "VS Code",
+          "tags": []
+        },
+        {
+          "name": "Git",
+          "tags": []
+        },
+        {
+          "name": "Quartus II",
+          "tags": []
+        },
+        {
+          "name": "UML",
+          "tags": []
+        },
+        {
+          "name": "Eclipse IDE",
+          "tags": []
+        },
+        {
+          "name": "Repl.it",
+          "tags": []
+        },
+        {
+          "name": "C Sharp",
+          "tags": ["Programming Languages", "Game Development"]
+        },
+        {
+          "name": "Unity",
+          "tags": ["Game Development"]
+        },
+        {
+          "name": "Visual Studio",
+          "tags": ["Game Development"]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Generative AI Model",
+          "tags": ["Python", "PyTorch", "Jupyter Notebook", "Conda"],
+          "description": "A transformer machine learning model based on the self-attention mechanism.",
+          "project_time": "04/2023-09/2023",
+          "image": ["/assets/chatbotOutput2.png"],
+          "links": ["https://github.com/3r1cZ/Chatbot"]
+        },
+        {
+          "name": "Handler One bot",
+          "tags": ["Python"],
+          "description": "A discord bot utilized for entertainment in a private server.",
+          "project_time": "04/2023-08/2023",
+          "image": ["/assets/discordBotSep2023.png"],
+          "links": ["https://github.com/3r1cZ/Handler-One"]
+        },
+        {
+          "name": "HAMS",
+          "tags": ["Java", "Android Studio", "Firebase"],
+          "description": "A Healthcare Management Android Application for managing appointments between patients and doctors.",
+          "project_time": "09/2023-12/2023",
+          "image": "/assets/hamsDoctor.png",
+          "links": [""]
+        },
+        {
+          "name": "Puzzle Game",
+          "tags": ["JavaScript", "HTML", "CSS"],
+          "description": "A web application for simple puzzle-solving problems",
+          "project_time": "09/2023-",
+          "image": "/assets/puzzleGameTrivia.png",
+          "links": [
+            "https://github.com/3r1cZ/Puzzle-Game",
+            "https://3r1cz.github.io/Puzzle-Game/"
+          ]
+        },
+        {
+          "name": "Battleship Game",
+          "tags": ["Java", "Eclipse IDE"],
+          "description": "A clone of the classic Battleship boardgame with a player playing against an AI.",
+          "project_time": "12/2021-01/2022",
+          "image": "/assets/battleship.png",
+          "links": ["https://github.com/3r1cZ/BattleshipGame"]
+        }
+      ]
+    }
+  }
+}
