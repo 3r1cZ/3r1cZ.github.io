@@ -5,6 +5,11 @@ interface ProjectContainerProps {
   projects: any[];
 }
 
+/**
+ * This function returns a project container component for the website.
+ * @param projects the list of projects
+ * @returns the tool container component
+ */
 const ProjectContainer = ({ projects }: ProjectContainerProps) => {
   return (
     <div className="project-container">

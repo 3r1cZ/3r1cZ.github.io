@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../css/Project.css";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 interface ProjectProps {
   projectName: string;
   tags: string[];
@@ -19,7 +20,7 @@ interface ProjectProps {
  * @param time the time of the project
  * @param description the description of the project
  * @param links the links of the project
- * @returns
+ * @returns the project component
  */
 const Project = ({
   projectName,
@@ -30,15 +31,14 @@ const Project = ({
   links,
 }: ProjectProps) => {
   const [isFlipped, setFlipped] = useState(false);
-  const [jump, setAnimate] = useState(false);
+  const [toRotate, setRotate] = useState(false);
 
   return (
     <motion.div
       className="project"
-      onClick={() => setFlipped(!isFlipped)}
-      onMouseOver={() => setAnimate(true)}
-      onMouseLeave={() => setAnimate(false)}
-      animate={{ y: jump ? -10 : void 0 }}
+      onClick={() => [setFlipped(!isFlipped), setRotate(!toRotate)]}
+      whileHover={{ y: -10 }}
+      animate={{ rotate: toRotate ? 360 : 0 }}
     >
       {isFlipped ? (
         <div>
@@ -53,7 +53,10 @@ const Project = ({
             <br />
           </p>
           {links.map((link, index) => (
-            <p key={index}>{link}</p>
+            <Link to={link} key={index}>
+              {link}
+              <br />
+            </Link>
           ))}
         </div>
       ) : (

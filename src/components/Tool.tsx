@@ -8,18 +8,12 @@ interface ToolProps {
 
 /**
  * This function returns a tool component for the website.
- * @param tool the developer tool name
+ * @param tool the developer tools
  * @returns the tool component
  */
 const Tool = ({ tool }: ToolProps) => {
-  const [jump, setAnimate] = useState(false);
   return (
-    <motion.div
-      className="tool"
-      onMouseOver={() => setAnimate(true)}
-      onMouseLeave={() => setAnimate(false)}
-      animate={{ y: jump ? -10 : void 0 }}
-    >
+    <motion.div className="tool" whileHover={{ y: -10 }}>
       <img
         className="toolImage"
         src={"/assets/" + tool.toLowerCase().replace(" ", "_") + ".png"}
