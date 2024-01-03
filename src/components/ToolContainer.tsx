@@ -52,7 +52,7 @@ const ToolContainer = ({ tags, tools }: ToolContainerProps) => {
             return currentFilter === "All" || tool.tags.includes(currentFilter);
           })
           .map((tool, index) => (
-            <Tool tool={tool.name} key={index} index={index}></Tool>
+            <Tool tool={tool.name} key={index}></Tool>
           ))}
       </div>
     </div>

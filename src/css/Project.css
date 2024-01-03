@@ -1,0 +1,24 @@
+.project {
+  width: 350px;
+  height: 350px;
+  background-color: #e6e6e6;
+  border: 5px solid silver;
+  border-radius: 15px;
+  text-align: center;
+  :hover {
+    cursor: pointer;
+  }
+  .projectImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 325px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+  }
+
+  .tagImage {
+    width: 45px;
+  }
+}

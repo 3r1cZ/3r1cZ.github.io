@@ -1,8 +1,9 @@
+import { motion } from "framer-motion";
 import "../css/Tool.css";
+import { useState } from "react";
 
 interface ToolProps {
   tool: string;
-  index: number;
 }
 
 /**
@@ -10,16 +11,21 @@ interface ToolProps {
  * @param tool the developer tool name
  * @returns the tool component
  */
-const Tool = ({ tool, index }: ToolProps) => {
+const Tool = ({ tool }: ToolProps) => {
+  const [jump, setAnimate] = useState(false);
   return (
-    <div className="tool">
+    <motion.div
+      className="tool"
+      onMouseOver={() => setAnimate(true)}
+      onMouseLeave={() => setAnimate(false)}
+      animate={{ y: jump ? -10 : void 0 }}
+    >
       <img
-        loading="lazy"
         className="toolImage"
         src={"/assets/" + tool.toLowerCase().replace(" ", "_") + ".png"}
       />
-      <p className="caption">{tool}</p>
-    </div>
+      <p>{tool}</p>
+    </motion.div>
   );
 };
 

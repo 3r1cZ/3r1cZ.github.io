@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import ToolContainer from "../components/ToolContainer";
 import "../css/Portfolio.css";
 import AnimationFadeIn from "../components/AnimationFadeIn";
+import ProjectContainer from "../components/ProjectContainer";
 
 interface PortfolioProps {
   data: any;
@@ -34,6 +35,14 @@ const Portfolio = ({ data }: PortfolioProps) => {
             </h2>
             <br />
             <ToolContainer tags={tags} tools={technicalSkills}></ToolContainer>
+          </div>
+          <div className="stats">
+            <br />
+            <h2>
+              <u>Projects</u>
+            </h2>
+            <br />
+            <ProjectContainer projects={projects}></ProjectContainer>
           </div>
         </div>
       )}
