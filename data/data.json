@@ -51,6 +51,10 @@
           "tags": ["Artificial Intelligence"]
         },
         {
+          "name": "PostgreSQL",
+          "tags": ["Databases"]
+        },
+        {
           "name": "Firebase",
           "tags": ["Databases", "Android Development"]
         },
@@ -93,6 +97,10 @@
         {
           "name": "Visual Studio",
           "tags": ["Game Development"]
+        },
+        {
+          "name": "Scheme",
+          "tags": ["Programming Languages"]
         }
       ],
       "projects": [
