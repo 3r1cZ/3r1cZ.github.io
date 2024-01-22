@@ -40,6 +40,27 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <a
+                href="https://www.linkedin.com/in/eric-zhou-79ba001b4/"
+                target="_blank"
+              >
+                <img
+                  className="nav-link active logo"
+                  src="/assets/linkedin.jpg"
+                />
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="https://github.com/3r1cZ" target="_blank">
+                <img
+                  className="nav-link active logo"
+                  src="/assets/github.jpg"
+                />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
