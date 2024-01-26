@@ -7,7 +7,9 @@ import { useState } from "react";
  * @returns the navbar component
  */
 const Navbar = () => {
-  const [hovered, setHovered] = useState(false);
+  const [logoHovered, setLogoHovered] = useState(false);
+  const [githubHovered, setGithubHovered] = useState(false);
+  const [linkedinHovered, setLinkedinHovered] = useState(false);
 
   return (
     <nav
@@ -18,9 +20,9 @@ const Navbar = () => {
         <Link className="navbar-brand" to="/">
           <img
             className="logo"
-            src={hovered ? "/assets/logo-hover.png" : "/assets/logo.png"}
-            onMouseEnter={() => setHovered(true)}
-            onMouseLeave={() => setHovered(false)}
+            src={logoHovered ? "/assets/logo-hover.png" : "/assets/logo.png"}
+            onMouseEnter={() => setLogoHovered(true)}
+            onMouseLeave={() => setLogoHovered(false)}
           />
         </Link>
         <div className="collapse navbar-collapse">
@@ -48,7 +50,13 @@ const Navbar = () => {
               >
                 <img
                   className="nav-link active logo"
-                  src="/assets/linkedin.jpg"
+                  src={
+                    linkedinHovered
+                      ? "/assets/linkedin_red.png"
+                      : "/assets/linkedin.jpg"
+                  }
+                  onMouseEnter={() => setLinkedinHovered(true)}
+                  onMouseLeave={() => setLinkedinHovered(false)}
                 />
               </a>
             </li>
@@ -56,7 +64,13 @@ const Navbar = () => {
               <a href="https://github.com/3r1cZ" target="_blank">
                 <img
                   className="nav-link active logo"
-                  src="/assets/github.jpg"
+                  src={
+                    githubHovered
+                      ? "/assets/github_red.png"
+                      : "/assets/github.jpg"
+                  }
+                  onMouseEnter={() => setGithubHovered(true)}
+                  onMouseLeave={() => setGithubHovered(false)}
                 />
               </a>
             </li>
