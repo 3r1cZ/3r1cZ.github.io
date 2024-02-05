@@ -1,6 +1,5 @@
-import { useState } from "react";
 import "../css/Project.css";
-import { motion } from "framer-motion";
+import { motion, useCycle } from "framer-motion";
 import { Link } from "react-router-dom";
 interface ProjectProps {
   projectName: string;
@@ -30,18 +29,18 @@ const Project = ({
   description,
   links,
 }: ProjectProps) => {
-  const [isFlipped, setFlipped] = useState(false);
-  const [toRotate, setRotate] = useState(false);
+  const [isFlipped, toggleFlip] = useCycle(false, true);
 
   return (
     <motion.div
       className="project"
-      onClick={() => [setFlipped(!isFlipped), setRotate(!toRotate)]}
       whileHover={{ y: -10 }}
-      animate={{ rotate: toRotate ? 360 : 0 }}
+      onClick={() => toggleFlip()}
+      animate={{ rotateY: isFlipped ? 180 : 0 }}
+      transition={{ duration: 0.5 }}
     >
       {isFlipped ? (
-        <div>
+        <motion.div animate={{ rotateY: isFlipped ? 180 : 0 }}>
           <p>
             Time: {time}
             <br />
@@ -58,7 +57,7 @@ const Project = ({
               <br />
             </Link>
           ))}
-        </div>
+        </motion.div>
       ) : (
         <div>
           <img className="projectImage" src={image} />
