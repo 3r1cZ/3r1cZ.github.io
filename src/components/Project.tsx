@@ -52,7 +52,7 @@ const Project = ({
             <br />
           </p>
           {links.map((link, index) => (
-            <Link to={link} key={index}>
+            <Link to={link} key={index} target="_blank">
               {link}
               <br />
             </Link>
