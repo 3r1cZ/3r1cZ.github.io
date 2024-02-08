@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
 import Portfolio from "./pages/Portfolio";
@@ -15,7 +15,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       {!isFetching && (
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -26,7 +26,7 @@ function App() {
           </Route>
         </Routes>
       )}
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
