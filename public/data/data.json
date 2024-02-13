@@ -105,6 +105,22 @@
         {
           "name": "Scheme",
           "tags": ["Programming Languages"]
+        },
+        {
+          "name": "C++",
+          "tags": ["Programming Languages", "Game Development"]
+        },
+        {
+          "name": "PowerPoint",
+          "tags": ["Office"]
+        },
+        {
+          "name": "Word",
+          "tags": ["Office"]
+        },
+        {
+          "name": "Excel",
+          "tags": ["Office"]
         }
       ],
       "projects": [
@@ -147,7 +163,7 @@
         },
         {
           "name": "Battleship Game",
-          "tags": ["Java", "Eclipse IDE"],
+          "tags": ["Java", "Eclipse"],
           "description": "A clone of the classic Battleship boardgame with a player playing against an AI.",
           "project_time": "12/2021-01/2022",
           "image": "/assets/battleship.png",
