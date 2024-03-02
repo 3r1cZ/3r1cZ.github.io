@@ -68,7 +68,7 @@
         },
         {
           "name": "VS Code",
-          "tags": []
+          "tags": ["IDE"]
         },
         {
           "name": "Git",
@@ -84,11 +84,15 @@
         },
         {
           "name": "Eclipse",
-          "tags": []
+          "tags": ["IDE"]
+        },
+        {
+          "name": "IntelliJ",
+          "tags": ["IDE"]
         },
         {
           "name": "Repl.it",
-          "tags": []
+          "tags": ["IDE"]
         },
         {
           "name": "C Sharp",
@@ -100,7 +104,7 @@
         },
         {
           "name": "Visual Studio",
-          "tags": ["Game Development"]
+          "tags": ["Game Development", "IDE"]
         },
         {
           "name": "Scheme",
