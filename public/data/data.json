@@ -115,6 +115,14 @@
           "tags": ["Programming Languages", "Game Development"]
         },
         {
+          "name": "Go",
+          "tags": ["Programming Languages"]
+        },
+        {
+          "name": "Prolog",
+          "tags": ["Programming Languages"]
+        },
+        {
           "name": "PowerPoint",
           "tags": ["Office"]
         },
