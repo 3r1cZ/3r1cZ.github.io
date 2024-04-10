@@ -52,7 +52,12 @@ const Project = ({
             <br />
           </p>
           {links.map((link, index) => (
-            <Link to={link} key={index} target="_blank">
+            <Link
+              to={link}
+              key={index}
+              target="_blank"
+              className="link-container"
+            >
               {link}
               <br />
             </Link>
@@ -60,12 +65,12 @@ const Project = ({
         </motion.div>
       ) : (
         <div>
-          <img className="projectImage" src={image} />
+          <img className="project-image" src={image} />
           <p>{projectName}</p>
           {tags.map((tag, index) => (
             <img
               key={index}
-              className="tagImage"
+              className="tag-image"
               src={"/assets/" + tag.toLowerCase().replace(" ", "_") + ".png"}
             ></img>
           ))}
