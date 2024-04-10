@@ -31,6 +31,14 @@
           "tags": ["Web Development", "Libraries"]
         },
         {
+          "name": "Express",
+          "tags": ["Web Development", "Frameworks"]
+        },
+        {
+          "name": "Node",
+          "tags": ["Web Development"]
+        },
+        {
           "name": "Vite",
           "tags": ["Web Development"]
         },
@@ -151,6 +159,27 @@
           "project_time": "04/2023-08/2023",
           "image": ["/assets/discordBotSep2023.png"],
           "links": ["https://github.com/3r1cZ/Handler-One"]
+        },
+        {
+          "name": "Hotel Booking Service",
+          "tags": [
+            "TypeScript",
+            "React",
+            "Vite",
+            "Bootstrap",
+            "Express",
+            "Node",
+            "PostgreSQL",
+            "HTML",
+            "CSS"
+          ],
+          "description": "A hotel booking web application.",
+          "project_time": "01/2024-04/2024",
+          "image": ["/assets/hotelSlideshow.png"],
+          "links": [
+            "https://github.com/MatinHMobini/CSI_2132_Databases_1",
+            "https://matinhmobini.github.io/CSI_2132_Databases_1/"
+          ]
         },
         {
           "name": "HAMS",
