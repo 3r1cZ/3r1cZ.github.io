@@ -31,18 +31,18 @@ const Portfolio = ({ data }: PortfolioProps) => {
           <div className="stats">
             <br />
             <h2>
-              <u>Technical Skills</u>
-            </h2>
-            <br />
-            <ToolContainer tags={tags} tools={technicalSkills}></ToolContainer>
-          </div>
-          <div className="stats">
-            <br />
-            <h2>
               <u>Projects</u>
             </h2>
             <br />
             <ProjectContainer projects={projects}></ProjectContainer>
+          </div>
+          <div className="stats">
+            <br />
+            <h2>
+              <u>Technical Skills</u>
+            </h2>
+            <br />
+            <ToolContainer tags={tags} tools={technicalSkills}></ToolContainer>
           </div>
         </div>
       )}
