@@ -131,6 +131,14 @@
           "tags": ["Programming Languages"]
         },
         {
+          "name": "Nightwatch",
+          "tags": ["Testing"]
+        },
+        {
+          "name": "Azure DevOps",
+          "tags": ["DevOps"]
+        },
+        {
           "name": "PowerPoint",
           "tags": ["Office"]
         },
