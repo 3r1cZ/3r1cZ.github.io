@@ -17,7 +17,7 @@ const WorkExperience = ({
   links,
   company,
 }: WorkExperienceProps) => {
-  return <div>WorkExperience</div>;
+  return <div className="work-experience">WorkExperience</div>;
 };
 
 export default WorkExperience;
