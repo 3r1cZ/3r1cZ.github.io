@@ -14,11 +14,9 @@ const WorkExperienceContainer = ({
           key={index}
           workExperienceName={workExperience.name}
           tags={workExperience.tags}
-          image={workExperience.image}
-          time={workExperience.project_time}
-          description={workExperience.description}
-          links={workExperience.links}
+          time={workExperience.time}
           company={workExperience.company}
+          description={workExperience.description}
         ></WorkExperience>
       ))}
     </div>

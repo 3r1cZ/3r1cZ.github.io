@@ -39,7 +39,6 @@ const Project = ({
     >
       <motion.div
         className="project"
-        whileHover={{ y: -10 }}
         onClick={() => toggleFlip()}
         animate={{ rotateY: isFlipped ? 180 : 0 }}
         transition={{ duration: 0.5 }}

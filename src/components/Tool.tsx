@@ -17,13 +17,13 @@ const Tool = ({ tool }: ToolProps) => {
       initial={{ opacity: 0, x: -100 }}
       transition={{ duration: 1, delay: 0.3 }}
     >
-      <motion.div className="tool" whileHover={{ y: -10 }}>
+      <div className="tool">
         <img
           className="toolImage"
           src={"/assets/" + tool.toLowerCase().replace(" ", "_") + ".png"}
         />
         <p>{tool}</p>
-      </motion.div>
+      </div>
     </motion.div>
   );
 };

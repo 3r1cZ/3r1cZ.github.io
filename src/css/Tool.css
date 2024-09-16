@@ -12,3 +12,7 @@
     margin-top: 5px;
   }
 }
+
+.tool:hover {
+  border-color: red;
+}
