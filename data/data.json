@@ -139,6 +139,10 @@
           "tags": ["DevOps"]
         },
         {
+          "name": ".NET",
+          "tags": ["Web Development", "Frameworks"]
+        },
+        {
           "name": "PowerPoint",
           "tags": ["Office"]
         },
