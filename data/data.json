@@ -8,7 +8,7 @@
         },
         {
           "name": "JUnit",
-          "tags": ["Testing", "Frameworks"]
+          "tags": ["Testing", "Frameworks/Libraries"]
         },
         {
           "name": "Python",
@@ -32,11 +32,11 @@
         },
         {
           "name": "React",
-          "tags": ["Web Development", "Libraries"]
+          "tags": ["Web Development", "Frameworks/Libraries"]
         },
         {
           "name": "Express",
-          "tags": ["Web Development", "Frameworks"]
+          "tags": ["Web Development", "Frameworks/Libraries"]
         },
         {
           "name": "Node",
@@ -48,11 +48,11 @@
         },
         {
           "name": "Bootstrap",
-          "tags": ["Web Development", "Frameworks"]
+          "tags": ["Web Development", "Frameworks/Libraries"]
         },
         {
           "name": "PyTorch",
-          "tags": ["Artificial Intelligence", "Frameworks"]
+          "tags": ["Artificial Intelligence", "Frameworks/Libraries"]
         },
         {
           "name": "Jupyter Notebook",
@@ -136,7 +136,7 @@
         },
         {
           "name": "Nightwatch",
-          "tags": ["Testing", "Frameworks"]
+          "tags": ["Testing", "Frameworks/Libraries"]
         },
         {
           "name": "Azure DevOps",
@@ -144,7 +144,7 @@
         },
         {
           "name": "NET",
-          "tags": ["Web Development", "Frameworks"]
+          "tags": ["Web Development", "Frameworks/Libraries"]
         },
         {
           "name": "PowerPoint",
