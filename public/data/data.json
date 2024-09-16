@@ -7,6 +7,10 @@
           "tags": ["Programming Languages", "Android Development"]
         },
         {
+          "name": "JUnit",
+          "tags": ["Testing", "Frameworks"]
+        },
+        {
           "name": "Python",
           "tags": ["Programming Languages", "Artificial Intelligence"]
         },
@@ -132,7 +136,7 @@
         },
         {
           "name": "Nightwatch",
-          "tags": ["Testing"]
+          "tags": ["Testing", "Frameworks"]
         },
         {
           "name": "Azure DevOps",
