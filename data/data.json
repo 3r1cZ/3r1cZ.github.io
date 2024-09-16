@@ -226,6 +226,22 @@
           "image": "/assets/battleship.png",
           "links": ["https://github.com/3r1cZ/BattleshipGame"]
         }
+      ],
+      "workExperiences": [
+        {
+          "name": "Full Stack Developer",
+          "tags": "C#, ASP.NET, HTML, Visual Studio, Azure DevOps, SQL",
+          "time": "06/2024-08/2024",
+          "company": "Global Affairs Canada",
+          "description": "Updated pages to reflect CUSMA Information Sharing Standards for the New Export Import Control System Team"
+        },
+        {
+          "name": "Automation Tester",
+          "tags": "JavaScript, Nightwatch.js, Node.js, Azure DevOps",
+          "time": "05/2024-06/2024",
+          "company": "Global Affairs Canada",
+          "description": "Wrote and deployed automated tests to assist with regression testing for the New Export Import Control System Team"
+        }
       ]
     }
   }
