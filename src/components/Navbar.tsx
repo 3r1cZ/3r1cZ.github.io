@@ -12,10 +12,7 @@ const Navbar = () => {
   const [linkedinHovered, setLinkedinHovered] = useState(false);
 
   return (
-    <nav
-      className="navbar navbar-expand sticky-top bg-primary "
-      data-bs-theme="dark"
-    >
+    <nav className="navbar navbar-expand sticky-top" data-bs-theme="dark">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           <img

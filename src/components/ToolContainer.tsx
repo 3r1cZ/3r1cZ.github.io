@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import "../css/ToolContainer.css";
 import Tool from "./Tool";
+import { motion } from "framer-motion";
 
 interface ToolContainerProps {
   tags: string[];
@@ -19,7 +20,13 @@ const ToolContainer = ({ tags, tools }: ToolContainerProps) => {
 
   return (
     <div>
-      <div className="tags-container" ref={tagContainer}>
+      <motion.div
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 1, delay: 0.3 }}
+        className="tags-container"
+        ref={tagContainer}
+      >
         {tags.map((tag, index) => (
           <button
             key={index}
@@ -44,7 +51,7 @@ const ToolContainer = ({ tags, tools }: ToolContainerProps) => {
             {tag}
           </button>
         ))}
-      </div>
+      </motion.div>
       <br />
       <div className="tool-container">
         {tools

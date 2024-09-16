@@ -1,5 +1,6 @@
 .home-page {
   .intro-text {
+    text-align: center;
     max-height: 90%;
     position: relative;
     transform: translate(0px, 250px);
@@ -28,5 +29,31 @@
     transform: translate(10px, 60px);
     border: 5px solid silver;
     border-radius: 15px;
+  }
+
+  .multicoloured-header {
+    background: linear-gradient(
+      to right,
+      rgb(223, 115, 133),
+      white,
+      rgb(223, 115, 133)
+    );
+    background-clip: text;
+    color: transparent;
+  }
+
+  .multicoloured-intro {
+    background: linear-gradient(
+      to right,
+      silver,
+      white,
+      silver,
+      white,
+      silver,
+      white,
+      silver
+    );
+    background-clip: text;
+    color: transparent;
   }
 }

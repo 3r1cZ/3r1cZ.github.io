@@ -12,12 +12,18 @@ interface ToolProps {
  */
 const Tool = ({ tool }: ToolProps) => {
   return (
-    <motion.div className="tool" whileHover={{ y: -10 }}>
-      <img
-        className="toolImage"
-        src={"/assets/" + tool.toLowerCase().replace(" ", "_") + ".png"}
-      />
-      <p>{tool}</p>
+    <motion.div
+      whileInView={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, x: -100 }}
+      transition={{ duration: 1, delay: 0.3 }}
+    >
+      <motion.div className="tool" whileHover={{ y: -10 }}>
+        <img
+          className="toolImage"
+          src={"/assets/" + tool.toLowerCase().replace(" ", "_") + ".png"}
+        />
+        <p>{tool}</p>
+      </motion.div>
     </motion.div>
   );
 };

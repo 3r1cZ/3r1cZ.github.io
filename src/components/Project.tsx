@@ -33,49 +33,55 @@ const Project = ({
 
   return (
     <motion.div
-      className="project"
-      whileHover={{ y: -10 }}
-      onClick={() => toggleFlip()}
-      animate={{ rotateY: isFlipped ? 180 : 0 }}
-      transition={{ duration: 0.5 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, x: -100 }}
+      transition={{ duration: 1, delay: 0.3 }}
     >
-      {isFlipped ? (
-        <motion.div animate={{ rotateY: isFlipped ? 180 : 0 }}>
-          <p>
-            Time: {time}
-            <br />
-            <br />
-            Description: {description}
-            <br />
-            <br />
-            <u>Links:</u>
-            <br />
-          </p>
-          {links.map((link, index) => (
-            <Link
-              to={link}
-              key={index}
-              target="_blank"
-              className="link-container"
-            >
-              {link}
+      <motion.div
+        className="project"
+        whileHover={{ y: -10 }}
+        onClick={() => toggleFlip()}
+        animate={{ rotateY: isFlipped ? 180 : 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        {isFlipped ? (
+          <motion.div animate={{ rotateY: isFlipped ? 180 : 0 }}>
+            <p>
+              Time: {time}
               <br />
-            </Link>
-          ))}
-        </motion.div>
-      ) : (
-        <div>
-          <img className="project-image" src={image} />
-          <p>{projectName}</p>
-          {tags.map((tag, index) => (
-            <img
-              key={index}
-              className="tag-image"
-              src={"/assets/" + tag.toLowerCase().replace(" ", "_") + ".png"}
-            ></img>
-          ))}
-        </div>
-      )}
+              <br />
+              Description: {description}
+              <br />
+              <br />
+              <u>Links:</u>
+              <br />
+            </p>
+            {links.map((link, index) => (
+              <Link
+                to={link}
+                key={index}
+                target="_blank"
+                className="link-container"
+              >
+                {link}
+                <br />
+              </Link>
+            ))}
+          </motion.div>
+        ) : (
+          <div>
+            <img className="project-image" src={image} />
+            <p>{projectName}</p>
+            {tags.map((tag, index) => (
+              <img
+                key={index}
+                className="tag-image"
+                src={"/assets/" + tag.toLowerCase().replace(" ", "_") + ".png"}
+              ></img>
+            ))}
+          </div>
+        )}
+      </motion.div>
     </motion.div>
   );
 };
