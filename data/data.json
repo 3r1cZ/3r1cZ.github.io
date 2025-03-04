@@ -140,11 +140,19 @@
         },
         {
           "name": "Azure DevOps",
-          "tags": ["DevOps"]
+          "tags": ["Project Management"]
         },
         {
           "name": "NET",
           "tags": ["Web Development", "Frameworks/Libraries"]
+        },
+        {
+          "name": "XAML",
+          "tags": ["Web Development"]
+        },
+        {
+          "name": "YouTrack",
+          "tags": ["Project Management"]
         },
         {
           "name": "PowerPoint",
@@ -228,6 +236,13 @@
         }
       ],
       "workExperiences": [
+        {
+          "name": "Software Developer- Electronic Warfare",
+          "tags": "C#, WPF, XAML, Visual Studio",
+          "time": "01/2025-04/2025",
+          "company": "MC Countermeasures Inc.",
+          "description": "Developed new features for customer-facing software used in radar testing across NATO and designed internal testing tools to remotely control laboratory equipment such as oscilloscopes and spectrum analyzers."
+        },
         {
           "name": "Full Stack Developer",
           "tags": "C#, ASP.NET, HTML, Visual Studio, Azure DevOps, SQL",
