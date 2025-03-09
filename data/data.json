@@ -3,112 +3,140 @@
     "portfolio": {
       "technical_skills": [
         {
-          "name": "Java",
-          "tags": ["Programming Languages", "Android Development"]
+          "name": "Android Studio",
+          "tags": ["Android Development"]
         },
         {
-          "name": "JUnit",
-          "tags": ["Testing", "Frameworks/Libraries"]
-        },
-        {
-          "name": "Python",
-          "tags": ["Programming Languages", "Artificial Intelligence"]
-        },
-        {
-          "name": "HTML",
-          "tags": ["Web Development"]
-        },
-        {
-          "name": "CSS",
-          "tags": ["Web Development"]
-        },
-        {
-          "name": "Javascript",
-          "tags": ["Programming Languages", "Web Development"]
-        },
-        {
-          "name": "TypeScript",
-          "tags": ["Programming Languages", "Web Development"]
-        },
-        {
-          "name": "React",
-          "tags": ["Web Development", "Frameworks/Libraries"]
-        },
-        {
-          "name": "Express",
-          "tags": ["Web Development", "Frameworks/Libraries"]
-        },
-        {
-          "name": "Node",
-          "tags": ["Web Development"]
-        },
-        {
-          "name": "Vite",
-          "tags": ["Web Development"]
+          "name": "Azure DevOps",
+          "tags": ["Project Management"]
         },
         {
           "name": "Bootstrap",
           "tags": ["Web Development", "Frameworks/Libraries"]
         },
         {
-          "name": "PyTorch",
-          "tags": ["Artificial Intelligence", "Frameworks/Libraries"]
+          "name": "C Sharp",
+          "tags": ["Programming Languages", "Game Development"]
         },
         {
-          "name": "Jupyter Notebook",
-          "tags": ["Artificial Intelligence"]
+          "name": "C++",
+          "tags": ["Programming Languages", "Game Development"]
         },
         {
           "name": "Conda",
           "tags": ["Artificial Intelligence"]
         },
         {
-          "name": "SQL",
-          "tags": ["Programming Languages", "Databases"]
-        },
-        {
-          "name": "PostgreSQL",
-          "tags": ["Databases"]
-        },
-        {
-          "name": "Firebase",
-          "tags": ["Databases", "Android Development"]
-        },
-        {
-          "name": "Android Studio",
-          "tags": ["Android Development"]
-        },
-        {
-          "name": "VS Code",
-          "tags": ["IDE"]
-        },
-        {
-          "name": "Git",
-          "tags": []
-        },
-        {
-          "name": "Quartus II",
-          "tags": []
-        },
-        {
-          "name": "UML",
-          "tags": []
+          "name": "CSS",
+          "tags": ["Web Development"]
         },
         {
           "name": "Eclipse",
           "tags": ["IDE"]
         },
         {
+          "name": "Excel",
+          "tags": ["Office"]
+        },
+        {
+          "name": "Express",
+          "tags": ["Web Development", "Frameworks/Libraries"]
+        },
+        {
+          "name": "Firebase",
+          "tags": ["Databases", "Android Development"]
+        },
+        {
+          "name": "Git",
+          "tags": []
+        },
+        {
+          "name": "Go",
+          "tags": ["Programming Languages"]
+        },
+        {
+          "name": "HTML",
+          "tags": ["Web Development"]
+        },
+        {
           "name": "IntelliJ",
           "tags": ["IDE"]
+        },
+        {
+          "name": "Java",
+          "tags": ["Programming Languages", "Android Development"]
+        },
+        {
+          "name": "Javascript",
+          "tags": ["Programming Languages", "Web Development"]
+        },
+        {
+          "name": "JUnit",
+          "tags": ["Testing", "Frameworks/Libraries"]
+        },
+        {
+          "name": "Jupyter Notebook",
+          "tags": ["Artificial Intelligence"]
+        },
+        {
+          "name": "NET",
+          "tags": ["Web Development", "Frameworks/Libraries"]
+        },
+        {
+          "name": "Nightwatch",
+          "tags": ["Testing", "Frameworks/Libraries"]
+        },
+        {
+          "name": "Node",
+          "tags": ["Web Development"]
+        },
+        {
+          "name": "PostgreSQL",
+          "tags": ["Databases"]
+        },
+        {
+          "name": "PowerPoint",
+          "tags": ["Office"]
+        },
+        {
+          "name": "Prolog",
+          "tags": ["Programming Languages"]
+        },
+        {
+          "name": "Python",
+          "tags": ["Programming Languages", "Artificial Intelligence"]
+        },
+        {
+          "name": "PyTorch",
+          "tags": ["Artificial Intelligence", "Frameworks/Libraries"]
+        },
+        {
+          "name": "Quartus II",
+          "tags": []
+        },
+        {
+          "name": "React",
+          "tags": ["Web Development", "Frameworks/Libraries"]
         },
         {
           "name": "Repl.it",
           "tags": ["IDE"]
         },
         {
-          "name": "C Sharp",
-          "tags": ["Programming Languages", "Game Development"]
+          "name": "Scheme",
+          "tags": ["Programming Languages"]
+        },
+        {
+          "name": "SQL",
+          "tags": ["Programming Languages", "Databases"]
+        },
+        {
+          "name": "TypeScript",
+          "tags": ["Programming Languages", "Web Development"]
+        },
+        {
+          "name": "UML",
+          "tags": []
         },
         {
           "name": "Unity",
@@ -119,32 +147,16 @@
           "tags": ["Game Development", "IDE"]
         },
         {
-          "name": "Scheme",
-          "tags": ["Programming Languages"]
+          "name": "Vite",
+          "tags": ["Web Development"]
         },
         {
-          "name": "C++",
-          "tags": ["Programming Languages", "Game Development"]
+          "name": "VS Code",
+          "tags": ["IDE"]
         },
         {
-          "name": "Go",
-          "tags": ["Programming Languages"]
-        },
-        {
-          "name": "Prolog",
-          "tags": ["Programming Languages"]
-        },
-        {
-          "name": "Nightwatch",
-          "tags": ["Testing", "Frameworks/Libraries"]
-        },
-        {
-          "name": "Azure DevOps",
-          "tags": ["Project Management"]
-        },
-        {
-          "name": "NET",
-          "tags": ["Web Development", "Frameworks/Libraries"]
+          "name": "Word",
+          "tags": ["Office"]
         },
         {
           "name": "XAML",
@@ -153,37 +165,9 @@
         {
           "name": "YouTrack",
           "tags": ["Project Management"]
-        },
-        {
-          "name": "PowerPoint",
-          "tags": ["Office"]
-        },
-        {
-          "name": "Word",
-          "tags": ["Office"]
-        },
-        {
-          "name": "Excel",
-          "tags": ["Office"]
         }
       ],
       "projects": [
-        {
-          "name": "Generative AI Model",
-          "tags": ["Python", "PyTorch", "Jupyter Notebook", "Conda"],
-          "description": "A transformer machine learning model based on the self-attention mechanism.",
-          "project_time": "04/2023-09/2023",
-          "image": ["/assets/chatbotOutput2.png"],
-          "links": ["https://github.com/3r1cZ/Chatbot"]
-        },
-        {
-          "name": "Handler One bot",
-          "tags": ["Python"],
-          "description": "A discord bot utilized for entertainment in a private server.",
-          "project_time": "04/2023-08/2023",
-          "image": ["/assets/discordBotSep2023.png"],
-          "links": ["https://github.com/3r1cZ/Handler-One"]
-        },
         {
           "name": "Hotel Booking Service",
           "tags": [
@@ -214,6 +198,22 @@
           "links": [
             "https://github.com/uOttawaSEGA2023/project-project-group-11"
           ]
+        },
+        {
+          "name": "Generative AI Model",
+          "tags": ["Python", "PyTorch", "Jupyter Notebook", "Conda"],
+          "description": "A transformer machine learning model based on the self-attention mechanism.",
+          "project_time": "04/2023-09/2023",
+          "image": ["/assets/chatbotOutput2.png"],
+          "links": ["https://github.com/3r1cZ/Chatbot"]
+        },
+        {
+          "name": "Handler One bot",
+          "tags": ["Python"],
+          "description": "A discord bot utilized for entertainment in a private server.",
+          "project_time": "04/2023-08/2023",
+          "image": ["/assets/discordBotSep2023.png"],
+          "links": ["https://github.com/3r1cZ/Handler-One"]
         },
         {
           "name": "Puzzle Game",
