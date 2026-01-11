@@ -23,8 +23,7 @@ const Home = () => {
             transition={{ duration: 1, delay: 0.4 }}
           >
             <h2 className="multicoloured-intro">
-              Web Development / Android Development / Artificial Intelligence /
-              Game Development
+              Web • Android • Game Dev • AI • Test Infrastructure
             </h2>
             <Link aria-current="page" to="/portfolio">
               <Button>Portfolio</Button>
