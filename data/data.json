@@ -23,12 +23,20 @@
           "tags": ["Programming Languages", "Game Development"]
         },
         {
+          "name": "Cloudian",
+          "tags": ["Infrastructure"]
+        },
+        {
           "name": "Conda",
           "tags": ["Artificial Intelligence"]
         },
         {
           "name": "CSS",
           "tags": ["Web Development"]
+        },
+        {
+          "name": "Docker",
+          "tags": ["Infrastructure"]
         },
         {
           "name": "Eclipse",
@@ -71,12 +79,24 @@
           "tags": ["Programming Languages", "Web Development"]
         },
         {
+          "name": "Jenkins",
+          "tags": ["Infrastructure"]
+        },
+        {
           "name": "JUnit",
           "tags": ["Testing", "Frameworks/Libraries"]
         },
         {
           "name": "Jupyter Notebook",
           "tags": ["Artificial Intelligence"]
+        },
+        {
+          "name": "Linux",
+          "tags": ["Operating Systems"]
+        },
+        {
+          "name": "MacOS",
+          "tags": ["Operating Systems"]
         },
         {
           "name": "NET",
@@ -89,6 +109,10 @@
         {
           "name": "Node",
           "tags": ["Web Development"]
+        },
+        {
+          "name": "Perl",
+          "tags": ["Programming Languages"]
         },
         {
           "name": "PostgreSQL",
@@ -131,6 +155,10 @@
           "tags": ["Programming Languages", "Databases"]
         },
         {
+          "name": "TCL",
+          "tags": ["Programming Languages"]
+        },
+        {
           "name": "TypeScript",
           "tags": ["Programming Languages", "Web Development"]
         },
@@ -153,6 +181,10 @@
         {
           "name": "VS Code",
           "tags": ["IDE"]
+        },
+        {
+          "name": "Windows",
+          "tags": ["Operating Systems"]
         },
         {
           "name": "Word",
@@ -237,25 +269,32 @@
       ],
       "workExperiences": [
         {
+          "name": "Test Infrastructure Engineer",
+          "tags": "TCL, Jira, Jenkins, Linux, Cloudian, JavaScript, SQL, Docker, Python, Perl, Go",
+          "time": "09/2025-12/2025",
+          "company": "Solace",
+          "description": "Maintained and developed features for automated framework tools and updated Jenkins pipelines for sanity testing."
+        },
+        {
           "name": "Software Developer- Electronic Warfare",
-          "tags": "C#, WPF, XAML, Visual Studio",
+          "tags": "C#, WPF, XAML, Visual Studio, SQL",
           "time": "01/2025-04/2025",
           "company": "MC Countermeasures Inc.",
           "description": "Developed new features for customer-facing software used in radar testing across NATO and designed internal testing tools to remotely control laboratory equipment such as oscilloscopes and spectrum analyzers."
         },
         {
           "name": "Full Stack Developer",
-          "tags": "C#, ASP.NET, HTML, Visual Studio, Azure DevOps, SQL",
+          "tags": "C#, ASP.NET, HTML, Visual Studio, Azure DevOps",
           "time": "06/2024-08/2024",
           "company": "Global Affairs Canada",
-          "description": "Updated pages to reflect CUSMA Information Sharing Standards for the New Export Import Control System Team"
+          "description": "Updated pages to reflect CUSMA Information Sharing Standards for the New Export Import Control System Team."
         },
         {
           "name": "Automation Tester",
           "tags": "JavaScript, Nightwatch.js, Node.js, Azure DevOps",
           "time": "05/2024-06/2024",
           "company": "Global Affairs Canada",
-          "description": "Wrote and deployed automated tests to assist with regression testing for the New Export Import Control System Team"
+          "description": "Wrote and deployed automated tests to assist with regression testing for the New Export Import Control System Team."
         }
       ]
     }
